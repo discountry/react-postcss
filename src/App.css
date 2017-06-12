@@ -15,7 +15,9 @@
 }
 
 .App-intro {
-  font-size: large;
+  color: $primary; /* variable usage */
+  @mixin noSelect; /* mixin usage */
+  @mixin OpenSans 30px; /* mixin with value usage */
 }
 
 @keyframes App-logo-spin {
